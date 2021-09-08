@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(248, 248, 237)
+}
+#container {
+    text-align: center;
+}
+svg {
+    background-color: rgb(236, 247, 247);
+    border: solid 1px rgb(114, 114, 241);
+    font-family: "Arial";
+}
+.flex-container {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .first {
+    flex-grow: 7;
+    margin: 2px;
+    padding: 2px;
+    
+  }
+  
+  .second {
+    flex-grow: 3;
+    margin: 2px;
+    padding: 2px;
+    
+  }
+
+#wordFilter, #yearsFilter{
+  color:brown;
+}
+
